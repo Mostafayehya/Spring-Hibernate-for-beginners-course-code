@@ -1,0 +1,24 @@
+package com.mostafayehia.springdemo;
+
+public class WeirdCoach implements Coach {
+
+	
+	private FortuneService fortuneService; 
+	
+	public void WeirdCoach(FortuneService fortuneService) {
+		this.fortuneService=fortuneService;
+	}
+	
+	@Override
+	public String getDailyWorkout() {
+		
+		return "Do this Weired ";
+	}
+
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

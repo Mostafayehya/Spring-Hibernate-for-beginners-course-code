@@ -1,0 +1,11 @@
+package com.mostafayehia.springdemo;
+
+public class WeirdFortuneService implements FortuneService {
+
+	@Override
+	public String getFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

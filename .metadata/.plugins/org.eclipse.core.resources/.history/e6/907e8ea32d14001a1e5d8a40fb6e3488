@@ -1,0 +1,30 @@
+package com.mostafayehia.springdemo.mvc;
+
+public class Student {
+	
+	private String firstName; 
+	Private String lastName;
+	
+	public Student(){
+		
+	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getString() {
+		return "String";
+	}
+
+	public void setString(Private string) {
+		String = string;
+	}
+	
+	
+
+}

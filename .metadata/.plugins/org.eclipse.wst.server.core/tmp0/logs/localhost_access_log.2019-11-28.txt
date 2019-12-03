@@ -1,0 +1,10 @@
+127.0.0.1 - - [28/Nov/2019:11:37:44 +0200] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [28/Nov/2019:11:37:45 +0200] "GET /spring-mvc-demo/ HTTP/1.1" 200 142
+0:0:0:0:0:0:0:1 - - [28/Nov/2019:11:37:49 +0200] "GET /spring-mvc-demo/showForm HTTP/1.1" 200 366
+0:0:0:0:0:0:0:1 - - [28/Nov/2019:11:37:49 +0200] "GET /spring-mvc-demo/resources/saimosqr.PNG HTTP/1.1" 200 10066
+0:0:0:0:0:0:0:1 - - [28/Nov/2019:11:37:53 +0200] "GET /spring-mvc-demo/processFormVersionThree?studentName=Hamdy+ HTTP/1.1" 400 1204
+0:0:0:0:0:0:0:1 - - [28/Nov/2019:11:39:17 +0200] "GET /spring-mvc-demo/processFormVersionThree?studentName=Hamdy+ HTTP/1.1" 500 4332
+127.0.0.1 - - [28/Nov/2019:11:42:20 +0200] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [28/Nov/2019:11:42:21 +0200] "GET /spring-mvc-demo/ HTTP/1.1" 200 142
+0:0:0:0:0:0:0:1 - - [28/Nov/2019:11:42:24 +0200] "GET /spring-mvc-demo/showForm HTTP/1.1" 200 366
+0:0:0:0:0:0:0:1 - - [28/Nov/2019:11:42:26 +0200] "GET /spring-mvc-demo/processFormVersionThree?studentName=Hamdy HTTP/1.1" 200 136

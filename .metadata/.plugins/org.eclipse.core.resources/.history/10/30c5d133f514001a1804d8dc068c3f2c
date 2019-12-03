@@ -1,0 +1,5 @@
+package com.mostafayehia.springdemo.mvc;
+
+public class Customer {
+
+}

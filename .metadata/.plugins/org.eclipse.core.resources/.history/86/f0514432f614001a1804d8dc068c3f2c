@@ -1,0 +1,22 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+<body>
+
+	<form action="processForm" modelAttribute="customer">
+
+		First Name:
+		<form:input path="firstName" />
+		
+		Last Name(*): 
+		<form:input path="lastName"/>
+		<form:errors path="lastName" cssClass="error"></form:errors>
+		
+		<form:input path="submit" />
+	</form>
+
+</body>
+</html>

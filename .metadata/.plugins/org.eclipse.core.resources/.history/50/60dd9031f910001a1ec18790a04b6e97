@@ -1,0 +1,12 @@
+<!DOCTYPE html> 
+<html>
+<body>
+
+Hello World, From Spring App
+
+<br><br>
+
+Student name: ${param.studentName}
+</body>
+
+</html>

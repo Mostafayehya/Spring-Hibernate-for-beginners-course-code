@@ -1,0 +1,12 @@
+<!DOCTYPE html> 
+
+<html>
+
+<body>
+	<form:form action="/processForm" modelAttribute="student">
+	
+	</form:form>
+
+</body>
+
+</html>

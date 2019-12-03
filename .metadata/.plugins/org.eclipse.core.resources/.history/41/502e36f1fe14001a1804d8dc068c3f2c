@@ -1,0 +1,4 @@
+<!DOCTYPE html> 
+<html>
+<body>Customer is confirmed : ${customer.firstName} ${customer.lastName}</body>
+</html>

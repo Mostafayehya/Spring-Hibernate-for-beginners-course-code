@@ -1,0 +1,14 @@
+<!DOCTYPE html> 
+<html>
+<head>Hello world</head>
+
+<body>
+
+Hello World, From Spring App
+
+<br><br>
+
+Student name: ${param.studentName}
+</body>
+
+</html>
